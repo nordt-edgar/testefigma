@@ -1,0 +1,400 @@
+/* header */
+#top1-1 {
+    width: 1920px;
+    height: 30px;
+    background-color: rgb(0, 92, 255);
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.top2 {
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+}
+
+#top2-1 {
+    max-width: 300px;
+    padding: 20px;
+}
+
+#top2-2 {
+    width: 800px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    border-color: #333;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 300px;
+}
+
+.top3 {
+    width: 1920px;
+}
+
+#top3-1 {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+/* banner  */
+.main {
+    width: 1920px;
+    height: 510px;
+    display: inline-flex;
+    background-color: #eee;
+}
+
+#main1 {
+    display: flex;
+}
+
+#main1-1 {
+    width: 685px;
+    height: 510px;
+    object-fit: cover;
+    object-position: 100% 70%;
+    padding-left: 200px;
+}
+
+#div1-2 {
+    padding: 200px;
+}
+
+#div1-2-1 {
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#div1-2-2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    color: rgb(0, 92, 255);
+}
+
+#div1-2-3 {
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+    color: rgb(0, 92, 255);
+}
+
+/* carrossel */
+.main2 {
+    width: 1288px;
+    height: 478px;
+    margin-top: 10px;
+    margin-left: 250px;
+
+
+}
+
+#div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2-2 {
+    width: 238px;
+    height: 409px;
+    border: #ccc solid 1px;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.main2-2 {
+    background: none;
+    border: none;
+    margin: 0;
+}
+
+.main2-3 {
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.div2-2-2 {
+    display: inline-block;
+}
+
+.div2-2-3 {
+    padding: 5px;
+    background-color: rgba(94, 192, 190, 1);
+    border-radius: 10px;
+    color: #fff;
+    position: absolute;
+    margin-top: 15px;
+
+}
+
+.div2-2-1 {
+    width: 222px;
+
+}
+
+.div2-h3 {
+    margin: 5px;
+    font-size: 17px;
+}
+
+.div2-2-4 {
+    width: 222px;
+    height: 40px;
+    font-size: larger;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(0, 92, 255);
+    border-radius: 10px;
+}
+
+.carrossel {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.carrosselSlide {
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 100%;
+    overflow: visible;
+    margin: 20px
+}
+
+.item {
+    position: relative;
+    right: 0;
+    flex: none;
+    transition: rigth 1s ease-out;
+    box-sizing: content-box;
+}
+
+.btnCarrossel {
+    width: 5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #333;
+}
+
+.btnCarrossel:hover {
+    background: rgba(0, 92, 255, 0.7);
+
+    #seta {
+        box-shadow: 2px -2px 0 1px #fff inset;
+        transition: box-sadow 100ms;
+    }
+}
+
+.btnBack {
+    left: 0;
+
+    #seta {
+        position: absolute;
+        padding: 17%;
+        box-shadow: 2px -2px 0 1px #fff inset;
+        border: solid;
+        border-width: 0 0 2px 2px;
+        margin: 0 auto;
+        opacity: 1;
+        transition: box-shadow 100ms;
+        transform: rotate(45deg);
+    }
+}
+
+.btnNext {
+    right: 0;
+
+    #seta {
+        position: absolute;
+        padding: 17%;
+        box-shadow: 2px -2px 0 -1px #fff inset;
+        border: solid;
+        border-width: 0 0 2px 2px;
+        margin: 0 auto;
+        opacity: 1;
+        transition: box-shadow 100ms;
+        transform: rotate(225deg);
+    }
+}
+
+/* conteudo 1 */
+
+.main3 {
+    width: 1177px;
+    height: 747px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.main3-1 {
+    display: flex;
+}
+
+.main3-2 {
+    background-size: 800px 700px;
+    background-color: rgba(194, 194, 194, 1);
+    width: 600px;
+    margin: 50px;
+}
+
+.main3-3 {
+    margin-top: 200px;
+    font-size: 40px;
+    font-weight: 1500;
+
+}
+
+.main3-4 {
+    font-size: 25px;
+}
+
+/* conteudo 2 */
+
+.main4 {
+    width: 1920px;
+    height: 820px;
+    background-color: rgba(222, 222, 222, 1);
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.main4-1 {
+    display: flex;
+}
+.main4-1-1{
+    line-height: 100px;
+    margin-top: 80px;
+    margin-right: 40px;
+}
+
+.main4-2 {
+    width: 480px;
+
+}
+
+.main4-2-1 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.main4-2-2 {
+    font-size: large;
+    
+}
+
+.main4-3-1 {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.main5-1{
+    background: url(./images/1513183bb2623f6b33f45e480c729d0fd2363189.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 660px;
+    margin-top: 50px;
+    padding-top: 550px;    
+}
+
+.main5-2{
+    text-align: center;
+    background-color: rgb(0, 92, 255);
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: xx-large
+}
+
+/* newsletter */
+
+.main6{
+    width: 1260;
+    height: 230;
+    margin-top: 50px;
+}
+
+#cadastro{
+    width: 1260px;
+    height: 400px;
+    margin-left: 250px;
+    border: none;
+}
+
+.main6-2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.main6-2-1{
+    color: rgb(0, 92, 255);
+}
+
+.main6-2-2{
+    background: 1260px 276px;
+    background-color: rgba(222, 222, 222, 1);
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    margin-left: 230px;
+}
+
+.main6-3{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#name{
+    width: 150px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 1);
+    border-color: #333;
+    padding: 5px 5px;
+    
+}
+
+#cp-email{
+    width: 150px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 1);
+    border-color: #333;
+    padding: 5px 5px;
+    
+}
+
+.main6-3-1{
+    font-size: 20px;
+    padding: 25px 5px ;
+}
+
+#cadastrar{
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 92, 255);
+    color: #fff;
+}
